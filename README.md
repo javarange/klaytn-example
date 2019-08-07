@@ -9,7 +9,9 @@
 ## 1. Deploy Contract
 <code>AdditionGame Contract</code>를 Klaytn에 배포하기 전에 반드시 <code>truffle.js</code> 파일에 자신의 <b>PRIVATE_KEY</b> 값을 설정한다.
 
-```npm run deploy```
+```truffle deploy --reset --network klaytn```
+
+# ```npm run deploy```
 
 ## 2. Run
 ```npm run dev```
